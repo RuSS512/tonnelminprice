@@ -1,6 +1,2 @@
-{ pkgs }: {
-  deps = [
-    pkgs.python3
-    pkgs.python3Packages.requests
-  ];
-}
+language = "python3"
+run = "python3 min_prices.py"
