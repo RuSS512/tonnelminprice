@@ -1,2 +1,6 @@
-language = "python3"
-run = "python3 min_prices.py"
+{ pkgs }: {
+  deps = [
+    pkgs.python310
+    pkgs.python310Packages.requests
+  ];
+}
